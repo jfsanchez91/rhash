@@ -13,6 +13,9 @@ repositories {
 }
 
 dependencies {
+    implementation(platform("io.projectreactor:reactor-bom:2020.0.24"))
+    implementation("io.projectreactor.netty:reactor-netty-core")
+
     testImplementation(kotlin("test"))
 }
 
